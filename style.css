@@ -1,0 +1,277 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #ccc;
+  margin: 0;
+  width: 100% !important;
+  height: 100%;
+  margin-bottom: -100px;
+  background: #333;
+}
+
+/* Nav-bar */
+#nav-bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  background: #333;
+  overflow: hidden;
+  z-index: 1;
+}
+
+#nav-bar ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+#nav-bar ul li {
+  display: flex;
+  justify-content: center;
+  color: steelblue;
+  text-align: center;
+  padding: 1rem;
+}
+
+#nav-bar ul li a {
+  text-decoration: none;
+  color: steelblue;
+  height: 1.3rem;
+  width: 5rem;
+  border-radius: 3px;
+}
+
+#nav-bar ul li a:hover {
+  background: #ccc;
+  color: #333;
+  border-radius: 3px;
+}
+
+p {
+  padding: 0.5rem;
+}
+
+ul,
+li {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  background: #333;
+}
+
+header {
+  height: 100% !important;
+}
+
+/* Contact Form */
+
+#contact #contact .map .contact-form {
+  align-items: center;
+}
+
+#contact .contact-form .form-group {
+  margin: 1rem;
+}
+
+#contact .contact-form input,
+#contact .contact-form textarea {
+  width: 100%;
+  padding: 0.5rem;
+}
+
+/* Blog */
+.content-wrap {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+#showcase-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+}
+
+#secondary {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: #ccc;
+  height: 25rem;
+  width: 15rem;
+  border-radius: 3px;
+}
+
+#search {
+  display: block;
+  justify-content: center;
+  padding-bottom: 3rem;
+  padding-left: 4rem;
+}
+
+/* Footer */
+#main-footer .footer-container {
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  text-align: center;
+  overflow: auto;
+  z-index: 1;
+  overflow: hidden;
+  padding-top: 1rem;
+}
+
+/* Utilities */
+.container {
+  display: flex;
+  justify-content: center;
+  background: #ccc;
+  margin: auto;
+  overflow: hidden;
+  top: 0;
+  background-image: url(/img/round2.jpg);
+  opacity: 0.8;
+}
+
+.blog-container {
+  height: 25rem;
+  width: 55rem;
+  background: #ccc;
+  margin: auto;
+  overflow: hidden;
+  top: 0;
+  background-image: url(/img/round.jpg);
+  opacity: 0.8;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.main-title {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: steelblue;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin: 10px;
+  font-size: 3rem;
+}
+
+.main-title-black {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #333;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin: 10px;
+  font-size: 3rem;
+}
+
+.text-white {
+  color: gainsboro;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin: 10px;
+  font-size: 3rem;
+}
+
+.lead {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: #333;
+  text-align: center;
+  padding: 3px 0;
+}
+
+.lead-black {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: #000000;
+  text-align: center;
+  padding: 3px 0;
+}
+
+.current {
+  background: #ccc;
+  color: #333;
+  height: 1.3rem;
+  width: 5rem;
+  border-radius: 3px;
+}
+
+.bg-dark {
+  background: #333;
+  color: steelblue;
+}
+
+.bg-grey {
+  background: #ccc;
+}
+
+.empty {
+  margin: 7rem;
+}
+
+.bottom-line-black {
+  border: 0.3rem solid #333;
+}
+
+.py-1 {
+  padding: 1rem;
+}
+
+.py-2 {
+  padding: 2rem;
+}
+.py-3 {
+  padding: 3rem;
+}
+.py-4 {
+  padding: 4rem;
+}
+
+.pyt-1 {
+  padding-top: 1rem;
+  text-align: center;
+}
+
+.pyt-2 {
+  padding-top: 2rem;
+  text-align: center;
+}
+
+.pyt-3 {
+  padding-top: 3rem;
+  text-align: center;
+}
+
+.my-1 {
+  margin: 1rem;
+}
+
+.my-2 {
+  margin: 2rem;
+}
+.my-3 {
+  margin: 3rem;
+}
+.my-4 {
+  margin: 4rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.5rem 2rem;
+  background: #333;
+  border: none;
+  border-radius: 3px;
+  color: #d2d2d2;
+  padding: 0.5rem;
+}
